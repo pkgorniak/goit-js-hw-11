@@ -5,8 +5,6 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 
 var API_KEY = '33206726-18a5895317d1d13b79ac3ac25';
 
-const axios = require('axios').default;
-
 const searchBtn = document.querySelector('button[type="submit"]');
 const searchInput = document.querySelector('input[name="searchQuery"]');
 const loadBtn = document.querySelector('.load-more');
